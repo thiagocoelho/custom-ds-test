@@ -1,6 +1,6 @@
 import React from "react";
 import TestComponent from "./TestComponent";
-import {Button, NormaProvider} from '../';
+import {Button, NormaProvider, defaultTheme} from '../';
 import { createTheme } from "@mui/material";
 
 // import {ThemeOptions} from '@mui/material/styles';
@@ -12,18 +12,6 @@ import { createTheme } from "@mui/material";
 //     ...olosPalette,
 //   },
 // });
-
-const theme = createTheme({
-  typography: {
-    fontFamily: '"Source Sans 3"',
-  },
-  palette: {
-    primary: {
-      main: "#FF7F11",
-      contrastText: "#ffffff",
-    },
-  },
-});
 
 export default {
   title: "TestComponent"
@@ -37,7 +25,7 @@ export const WithText = () => (
 );
 
 export const WithButtons = () => (
-  <NormaProvider theme={theme}>
+  <NormaProvider theme={defaultTheme}>
     <TestComponent
       heading="I have a button"
       content={
