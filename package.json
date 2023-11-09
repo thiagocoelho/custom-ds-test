@@ -1,5 +1,5 @@
 {
-  "name": "react-test-ds",
+  "name": "react-dsystem",
   "version": "1.0.0",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -76,5 +76,8 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.29.0",
     "storybook": "^7.5.3"
+  },
+  "dependencies": {
+    "@fontsource/source-sans-3": "^5.0.17"
   }
 }
