@@ -1,17 +1,10 @@
 import React from "react";
 import TestComponent from "./TestComponent";
-import {Button, NormaProvider, defaultTheme} from '../';
+import {Button, NormaProvider, themes} from '../';
+
 import { createTheme } from "@mui/material";
 
-// import {ThemeOptions} from '@mui/material/styles';
-// @fontsource/source-sans-3
-
-// export const lightTheme = createTheme({
-//   palette: {
-//     mode: 'light',
-//     ...olosPalette,
-//   },
-// });
+const theme = createTheme(themes.light);
 
 export default {
   title: "TestComponent"
@@ -25,7 +18,7 @@ export const WithText = () => (
 );
 
 export const WithButtons = () => (
-  <NormaProvider theme={defaultTheme}>
+  <NormaProvider theme={theme}>
     <TestComponent
       heading="I have a button"
       content={

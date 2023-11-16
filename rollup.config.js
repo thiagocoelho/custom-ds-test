@@ -11,15 +11,26 @@ export default {
   input: "src/index.ts",
   output: [
     {
-      file: packageJson.main,
+      dir: 'build',
       format: "cjs",
-      sourcemap: true
+      sourcemap: true,
+      preserveModules: true,
+      banner: `'use client';`
     },
-    {
-      file: packageJson.module,
-      format: "esm",
-      sourcemap: true
-    }
+    // {
+    //   file: packageJson.main,
+    //   format: "cjs",
+    //   sourcemap: true,
+    //   preserveModules: true,
+    //   banner: `'use client';`
+    // },
+    // {
+    //   file: packageJson.module,
+    //   format: "esm",
+    //   sourcemap: true,
+    //   preserveModules: true,
+    //   banner: `'use client';`
+    // }
   ],
   plugins: [
     peerDepsExternal(),

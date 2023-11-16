@@ -1,8 +1,6 @@
-"use client"; 
+'use client';
 
-import { createTheme } from "@mui/material";
-
-export const defaultTheme = createTheme({
+const defaultTheme = {
   typography: {
     fontFamily: '"Source Sans 3"',
   },
@@ -12,4 +10,8 @@ export const defaultTheme = createTheme({
       contrastText: "#ffffff",
     }
   },
-});
+};
+
+export const themes = {
+  light: defaultTheme
+};

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeProvider } from '@mui/material';
+import { CssBaseline, ThemeProvider } from '@mui/material';
 import { ThemeProviderProps } from "@mui/material/styles/ThemeProvider";
 import "@fontsource/source-sans-3"; // Defaults to weight 400
 
@@ -8,6 +8,7 @@ export const NormaProvider = (props:ThemeProviderProps) => {
   
   return (
     <ThemeProvider theme={theme}>
+      <CssBaseline />
       {children}
     </ThemeProvider>
   );

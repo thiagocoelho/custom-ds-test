@@ -1,7 +1,12 @@
-import { defaultTheme } from './themes/default';
+'use client';
+
+export * from './ThemeRegistry';
+export * from './providers';
+import { themes } from './styles';
+
 import TestComponent from "./TestComponent";
-import { Button } from "@mui/material";
+import { Button, Accordion } from "@mui/material";
 import { NormaProvider } from "./providers/NormaProvider";
 
 
-export { TestComponent, Button, NormaProvider, defaultTheme };
+export { TestComponent, Button, Accordion, NormaProvider, themes};
