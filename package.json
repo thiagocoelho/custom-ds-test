@@ -1,12 +1,12 @@
 {
   "name": "react-dsystem",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "main": "build/src/index.js",
   "files": [
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "A skeleton to create your own React component library using Rollup, TypeScript, Sass and Storybook",
+  "description": "A skeleton to create your own React component library using Rollup, TypeScript and Storybook",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
@@ -14,7 +14,8 @@
     "storybook": "storybook dev -p 6006",
     "storybook:export": "storybook build",
     "generate": "node ./util/create-component",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "build-storybook": "storybook build"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,6 @@
     "Library",
     "Rollup",
     "Typescript",
-    "Sass",
     "Storybook"
   ],
   "author": "",
@@ -56,18 +56,21 @@
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "^11.2.1",
     "@storybook/addon-essentials": "^7.5.3",
-    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-interactions": "^7.6.0",
+    "@storybook/addon-links": "^7.6.0",
+    "@storybook/addon-onboarding": "^1.0.8",
     "@storybook/addon-themes": "^7.5.3",
-    "@storybook/react": "^7.5.3",
-    "@storybook/react-webpack5": "^7.5.3",
+    "@storybook/blocks": "^7.6.0",
+    "@storybook/react-vite": "^7.6.0",
+    "@storybook/test": "^7.6.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@types/jest": "^24.9.1",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "autoprefixer": "^10.4.13",
     "babel-loader": "^8.2.2",
     "babel-preset-react-app": "^10.0.0",
+    "colors": "^1.4.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
     "react": "^17.0.0",
@@ -75,11 +78,11 @@
     "rollup": "^2.79.1",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.29.0",
     "storybook": "^7.5.3"
   },
   "dependencies": {
+    "@fontsource/material-icons": "^5.0.7",
     "@fontsource/source-sans-3": "^5.0.17"
   }
 }

@@ -1,11 +1,13 @@
 'use client';
 
-export * from './ThemeRegistry';
+import { themes } from './themes/defaultTheme';
 export * from './providers';
-import { themes } from './styles';
 
-import { Button, Accordion } from "@mui/material";
+// import Button from "./components/Button";
+import TextField from "./components/TextField";
+import { Accordion } from "@mui/material";
 import { NormaProvider } from "./providers/NormaProvider";
 
+import Button from './components/Button';
 
-export { Button, Accordion, NormaProvider, themes};
+export { Button, Accordion, TextField, NormaProvider, themes};
