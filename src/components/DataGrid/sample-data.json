@@ -1,0 +1,178 @@
+[
+  {
+    "columns": [
+      {
+        "allowFiltering": true,
+        "allowFiltering": true,
+        "allowSorting": true,
+        "field": "data",
+        "format": "date",
+        "headerText": "Data",
+        "textAlign": "left",
+        "width": "100%"
+      },
+      {
+        "allowFiltering": true,
+        "allowSorting": true,
+        "field": "duration",
+        "format": "time",
+        "headerText": "Duração",
+        "textAlign": "left",
+        "width": "100%"
+      },
+      {
+        "allowFiltering": true,
+        "allowSorting": true,
+        "field": "campanha",
+        "format": "string",
+        "headerText": "Campanha",
+        "textAlign": "left",
+        "width": "100%"
+      },
+      {
+        "allowFiltering": true,
+        "allowSorting": true,
+        "field": "agente",
+        "format": "string",
+        "headerText": "Agente",
+        "textAlign": "center",
+        "width": "100%"
+      },
+      {
+        "allowFiltering": true,
+        "allowSorting": true,
+        "field": "ani",
+        "format": "number",
+        "headerText": "ANI",
+        "textAlign": "left",
+        "width": "100%"
+      },
+      {
+        "allowFiltering": true,
+        "allowSorting": true,
+        "field": "dnis",
+        "format": "number",
+        "headerText": "DNIS",
+        "textAlign": "left",
+        "width": "100%"
+      },
+      {
+        "allowFiltering": true,
+        "allowSorting": true,
+        "field": "disposition",
+        "format": "string",
+        "headerText": "Tabulação",
+        "textAlign": "left",
+        "width": "100%"
+      },
+      {
+        "allowFiltering": true,
+        "allowSorting": true,
+        "field": "origem",
+        "format": "number",
+        "headerText": "Origem",
+        "textAlign": "left",
+        "width": "100%"
+      },
+      {
+        "allowFiltering": true,
+        "allowSorting": true,
+        "field": "id",
+        "format": "number",
+        "headerText": "ID",
+        "textAlign": "left",
+        "width": "100%"
+      }
+    ],
+    "dataSource": [
+      {
+        "data": "01/05/2022",
+        "duration": "08:18",
+        "campanha": "Campanha 1",
+        "agente": 16321,
+        "ani": 50364908,
+        "dnis": 123456,
+        "disposition": "Tabulação 1",
+        "origin": 12723,
+        "id": 1
+      },
+      {
+        "data": "01/05/2022",
+        "duration": "00:18",
+        "campanha": "Campanha 2",
+        "agente": "16322",
+        "ani": "50364909",
+        "dnis": "123457",
+        "disposition": "Tabulação 2",
+        "origin": "12721",
+        "id": 2
+      },
+      {
+        "data": "03/05/2022",
+        "duration": "03:13",
+        "campanha": "Campanha 1",
+        "agente": "16321",
+        "ani": "50364908",
+        "dnis": "123456",
+        "disposition": "Tabulação 1",
+        "origin": "12723",
+        "id": 3
+      },
+      {
+        "data": "01/05/2022",
+        "duration": "09:19",
+        "campanha": "Campanha 1",
+        "agente": "16321",
+        "ani": "50364908",
+        "dnis": "123456",
+        "disposition": "Tabulação 1",
+        "origin": "12723",
+        "id": 4
+      },
+      {
+        "data": "02/05/2022",
+        "duration": "02:59",
+        "campanha": "Campanha 1",
+        "agente": "16321",
+        "ani": "50364908",
+        "dnis": "123456",
+        "disposition": "Tabulação 1",
+        "origin": "12723",
+        "id": 5
+      },
+      {
+        "data": "04/05/2022",
+        "duration": "05:02",
+        "campanha": "Campanha 1",
+        "agente": "16321",
+        "ani": "50364908",
+        "dnis": "123456",
+        "disposition": "Tabulação 1",
+        "origin": "12723",
+        "id": 6
+      },
+      {
+        "data": "21/05/2022",
+        "duration": "06:02",
+        "campanha": "Campanha 7",
+        "agente": "16315",
+        "ani": "50364909",
+        "dnis": "123456",
+        "disposition": "Tabulação 7",
+        "origin": "12754",
+        "id": 7
+      },
+      {
+        "data": "23/05/2022",
+        "duration": "04:04",
+        "campanha": "Campanha 8",
+        "agente": "16321",
+        "ani": "50364908",
+        "dnis": "123456",
+        "disposition": "Tabulação 8",
+        "origin": "12752",
+        "id": 8
+      }
+    ]
+  }
+]

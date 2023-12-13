@@ -83,6 +83,7 @@
   },
   "dependencies": {
     "@fontsource/material-icons": "^5.0.7",
-    "@fontsource/source-sans-3": "^5.0.17"
+    "@fontsource/source-sans-3": "^5.0.17",
+    "@mui/icons-material": "^5.14.19"
   }
 }
